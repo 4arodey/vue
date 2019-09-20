@@ -1,0 +1,15 @@
+@import '../../styles/variables';
+
+.layout {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.layout-item {
+  width: $layout_width;
+  height: 100%;
+  background: $global_background_color;
+  border: $primary_border_style;
+}

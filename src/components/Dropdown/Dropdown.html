@@ -1,0 +1,20 @@
+<div class="text-center">
+  <v-menu :close-on-content-click="false" offset-y>
+    <template v-slot:activator="{ on }">
+      <v-btn
+              color="primary"
+              dark
+              v-on="on"
+      >
+        Dropdown
+      </v-btn>
+    </template>
+    <v-list>
+
+      <v-list-item>
+        <Switcher close-on-click="false"></Switcher>
+      </v-list-item>
+      <Dialog></Dialog>
+    </v-list>
+  </v-menu>
+</div>
